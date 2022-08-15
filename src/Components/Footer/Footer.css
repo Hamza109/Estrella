@@ -1,0 +1,13 @@
+.footer {
+  height: 20vh;
+}
+
+.f-social {
+  display: flex;
+  flex: 1;
+  color: white;
+  gap: 2rem;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+/*menu*/
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+}
+
+.menu > ul {
+  cursor: pointer;
+}
+.menu > ul > li {
+  color: "#fff";
+  font-size: 50px;
+}
+.menu > ul > li:hover {
+  color: gray;
+}
+
+.link {
+  color: white;
+}
+.link:hover {
+  color: gray;
+}

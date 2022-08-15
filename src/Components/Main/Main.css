@@ -1,0 +1,43 @@
+.main {
+  height: 80vh;
+  position: relative;
+}
+.m-center {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.m-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+}
+
+.m-text > span:nth-of-type(1) {
+  font-size: 190px;
+  font-weight: 100;
+  letter-spacing: 2rem;
+}
+.m-text > span:nth-of-type(2) {
+  font-size: 75px;
+  font-weight: 100;
+}
+.m-text > span:nth-of-type(3) {
+  font-size: 170px;
+  letter-spacing: 2rem;
+  font-weight: 100;
+}
+
+

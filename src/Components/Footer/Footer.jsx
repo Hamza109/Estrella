@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
-const Footer = () => {
+const Footer = ({color}) => {
   return (
     <div className='footer'>
       <div className='f-social'>
-      <span>instagram</span>
-        <span>facebook</span>
+      <span style={{color:color}}>instagram</span>
+        <span style={{color:color}}>facebook</span>
       </div>
     </div>
   );

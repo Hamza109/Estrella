@@ -1,16 +1,17 @@
 import React from "react";
-import About from "./Components/About/About";
 import App from "./App";
+import About from "./About";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-const Route = () => {
+const Route1 = () => {
   return (
-    <Router>
+    <div>
       <Routes>
-        <Route index element={<App />} />
+        <Route exact path='/' element={<App />} />
         <Route exact path='/about' element={<About />} />
       </Routes>
-    </Router>
+    </div>
   );
 };
 
-export default Route;
+export default Route1;

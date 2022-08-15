@@ -1,0 +1,42 @@
+.about1 {
+  height: 80vh;
+  padding: 0.6rem 4rem;
+  overflow: hidden;
+}
+.a-about {
+  display: flex;
+  margin-top: 2rem;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.a-right {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+}
+.a-name {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.a-name > :nth-child(1) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.a-name > :nth-child(2) {
+  font-size: 20px;
+}
+.a-name > :nth-child(3) {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.a-left {
+  flex: 1;
+  position: relative;
+}
+
+.a-left > * {
+  z-index: 1;
+}

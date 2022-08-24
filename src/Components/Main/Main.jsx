@@ -11,13 +11,14 @@ const Main = () => {
     <div className='main'>
       <div className='m-main' style={{ display: darkMode ? "none" : "flex" }}>
         <div className='m-center'>
-          <img src={Model} height='85%' width='26%' alt='' />
-        </div>
-        <div className='m-text'>
+          <img src={Model} className="img2"  alt='' />
+          <div className='m-center m-text'>
           <span>REACH</span>
           <span>FOR THE</span>
           <span>STARS</span>
         </div>
+        </div>
+      
       </div>
       <Menu />
     </div>

@@ -8,7 +8,16 @@ const Menu = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className='menu' style={{ display: darkMode ? "flex" : "none" }}>
-      <ul style={{ listStyleType: "none" }}>
+      <ul
+        style={{
+          listStyleType: "none",
+          display: "flex",
+          flexDirection: "column",
+          textAlign: "center",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <li>
           <Link
             target='_blank'
@@ -21,7 +30,14 @@ const Menu = () => {
         </li>
         <li>meet our models</li>
         <li>become a model</li>
-        <li>contact</li>
+        <li><Link
+            target='_blank'
+            className='link'
+            to='/contact'
+            style={{ textDecoration: "none" }}
+          >
+          contact
+          </Link></li>
       </ul>
     </div>
   );

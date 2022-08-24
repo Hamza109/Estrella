@@ -4,6 +4,7 @@ import { useState } from "react";
 import "./Navbar.css";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 const Navbar = ({ color }) => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -12,13 +13,15 @@ const Navbar = ({ color }) => {
     theme.dispatch({ type: "toggle" });
   };
   return (
-    <div className='navbar'>
+    <div className='navbar1'>
       <div className='left'>
         <span style={{color:color}} >meet our models</span>
       </div>
       <div className='center' >
-        <span style={{color:color}}>ESTRELLA</span>
+     
+        <span> <Link to='/'  style={{color:color,textDecoration:'none'}}>ESTRELLA  </Link></span>
         <span style={{color:color}}>MGMT</span>
+      
       </div>
       <div className='right'>
         <Hamburger

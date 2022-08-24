@@ -5,17 +5,13 @@
 }
 .a-about {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 6rem;
   flex: 1;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
-.a-right {
-  display: flex;
-  position: relative;
-  flex: 1;
-  flex-direction: column;
-}
+
 .a-name {
   display: flex;
   flex-direction: column;
@@ -32,11 +28,249 @@
   font-weight: 400;
   font-size: 1.2rem;
 }
-.a-left {
-  flex: 1;
-  position: relative;
+
+.a-get{
+margin-left: -7px;
 }
 
 .a-left > * {
   z-index: 1;
+}
+.img1{
+  height: 100%;
+  width: 55%;
+}
+
+@media only screen and (min-width:200px)and (max-width: 400px) {
+ 
+  .about1 {
+    height: 80vh;
+padding: 0;
+    overflow: hidden;
+  }
+  .a-about {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  }
+  
+  .a-name {
+gap: 1rem;
+width: 100%;
+  }
+  .a-name > :nth-child(1) {
+ font-size: 1rem;
+  }
+  .a-name > :nth-child(2) {
+font-size: 10px;
+  }
+  .a-name > :nth-child(3) {
+    font-size: .6rem;
+  }
+  
+  .a-get{
+  font-size: .7rem;
+  }
+  
+  .a-left  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      }
+  .img1{
+    height: 100%;
+    width: 75%;
+  }
+
+}
+
+@media only screen and (min-width:401px) and (max-width: 600px) {
+ 
+  .about1 {
+    height: 80vh;
+padding: 0;
+    overflow: hidden;
+  }
+  .a-about {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  }
+  
+  .a-name {
+gap: 1.1rem;
+width: 100%;
+  }
+  .a-name > :nth-child(1) {
+ font-size: 1.1rem;
+  }
+  .a-name > :nth-child(2) {
+font-size: 11px;
+  }
+  .a-name > :nth-child(3) {
+    font-size: .6rem;
+  }
+  
+  .a-get{
+    font-size: .7rem;
+  }
+  
+  .a-left  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      }
+  .img1{
+    height: 100%;
+    width: 85%;
+  }
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .about1 {
+   
+padding: 0;
+
+  }
+  .a-about {
+  display: flex;
+  flex: 1;
+
+  gap: 2rem;
+  margin-top: 8rem;
+  }
+  
+  .a-name {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .a-name > :nth-child(1) {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .a-name > :nth-child(2) {
+    font-size: 15px;
+  }
+  .a-name > :nth-child(3) {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+  
+  .a-get{
+  margin-left: -7px;
+  }
+  
+  .a-left > * {
+    z-index: 1;
+  }
+  .img1{
+    height: 100%;
+    width: 85%;
+  }
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .about1 {
+   
+    padding: 0;
+    
+      }
+      .a-about {
+      display: flex;
+      flex: 1;
+    
+      gap: 2rem;
+      margin-top: 8rem;
+      }
+      
+      .a-name {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+      }
+      .a-name > :nth-child(1) {
+        font-weight: bold;
+        font-size: 1.8rem;
+      }
+      .a-name > :nth-child(2) {
+        font-size: 15px;
+      }
+      .a-name > :nth-child(3) {
+        font-weight: 400;
+        font-size: 1.1rem;
+      }
+      
+      .a-get{
+      margin-left: -7px;
+      }
+      
+      .a-left > * {
+        z-index: 1;
+      }
+      .img1{
+        height: 100%;
+        width: 85%;
+      }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .about1 {
+   
+    padding: 0;
+    
+      }
+      .a-about {
+      display: flex;
+      flex: 1;
+    
+      gap: 2rem;
+      margin-top: 6rem;
+      }
+      
+      .a-name {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+      }
+      .a-name > :nth-child(1) {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .a-name > :nth-child(2) {
+        font-size: 20px;
+      }
+      .a-name > :nth-child(3) {
+        font-weight: 400;
+        font-size: 1.2rem;
+      }
+      
+      .a-get{
+      margin-left: -7px;
+      }
+      
+      .a-left > * {
+        z-index: 1;
+        margin-left:20px ;
+      }
+    
+      .img1{
+        height: 100%;
+        width: 55%;
+      }
+    
 }

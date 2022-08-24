@@ -11,7 +11,7 @@ function App() {
     <div className='App' style={{ background: darkMode ? "black" : "#ed1941" }}>
       <Navbar color={'white'} />
       <Main />
-      <Footer />
+      <Footer color={'white'} />
     </div>
   );
 }

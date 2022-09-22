@@ -3,6 +3,7 @@ import "./About1.css";
 import Model from "../../Img/main.jpg";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import { UilAngleRight } from '@iconscout/react-unicons'
 const About1 = () => {
@@ -27,7 +28,11 @@ const About1 = () => {
             <span>Let's REACH FOR THE STARS together</span>
             <div className='a-get'>
         <UilAngleRight size='2rem' />
-            <span>get in touch</span>
+
+            <span><Link target='_blank'
+            className='link'
+            to='/contact'
+            style={{ textDecoration: "none" ,color:'black'}} >get in touch </Link></span>
             </div>
           </div>
         </div>

@@ -1,0 +1,76 @@
+.meet {
+    height: 80vh;
+    position: relative;
+    margin-bottom: 15px;
+overflow: hidden;
+  }
+.m-meet{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+
+}
+.m-header{
+    margin-top: 40px;
+
+}
+.card-img-overlay{
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.card-text{
+    font-size: 2rem;
+}
+.m-main{
+   width: 70%;
+   margin-top: 20px
+
+;
+}
+.gender{
+    cursor: pointer;
+
+}
+.gender:hover{
+    opacity: .5;
+}
+
+.card:hover{
+    opacity: .8;
+}
+.dataImg{
+    margin-top: -32px;
+    margin-left: -32px;
+    padding: 0px;
+    width: 500px;
+    height: 600px;
+ 
+}
+.data{
+    display: flex;
+    flex:1;
+    flex-direction: row; 
+    gap: 5rem;
+}
+.d-info{
+    display: flex;
+     flex-direction: column;
+     font-family: 'Lexend',sans-serif;
+     font-weight: 300;
+     font-size: 1.4rem;
+     
+    
+}
+.d-info>:nth-child(1){
+    font-family: 'Lexend',sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    margin-top: -20px;
+    margin-bottom: 18px;
+    
+}

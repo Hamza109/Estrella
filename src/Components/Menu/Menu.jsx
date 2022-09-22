@@ -28,7 +28,13 @@ const Menu = () => {
             meet us
           </Link>
         </li>
-        <li>meet our models</li>
+
+        <li>       
+          <Link
+         target='_blank'
+         className='link'
+         to='/meetmodel'
+         style={{ textDecoration: "none" }}>meet our models</Link></li>
         <li>become a model</li>
         <li><Link
             target='_blank'

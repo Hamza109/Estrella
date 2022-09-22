@@ -6,8 +6,9 @@
   z-index: 999;
 }
 .left{
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 10px;
+  font-family: 'Lexend', sans-serif;
 }
 .center {
   display: flex;
@@ -16,18 +17,25 @@
 }
 .center > span:nth-of-type(1) {
   margin-top: 10px;
-  font-weight: 500;
+  margin-right: 55px;
+  font-weight: 600;
+  font-family: 'Lexend', sans-serif;
+
   letter-spacing: 0.35rem;
 }
 .center > span:nth-of-type(2) {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 9px;
+  margin-right: 60px;
   letter-spacing: 0.35rem;
+  font-family: 'Lexend';
+
   text-align: center;
 }
 .right{
   margin-top: 8px;
 }
+
 @media only screen and (max-width: 600px) {
   .left{
     display: none;

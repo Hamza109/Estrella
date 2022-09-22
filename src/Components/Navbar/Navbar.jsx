@@ -15,7 +15,11 @@ const Navbar = ({ color }) => {
   return (
     <div className='navbar1'>
       <div className='left'>
-        <span style={{color:color}} >meet our models</span>
+        <span > <Link
+         target='_blank'
+         className='link navlink'
+         to='/meetmodel'
+         style={{ color:color,textDecoration: "none" }}>meet our models</Link></span>
       </div>
       <div className='center' >
      

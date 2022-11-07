@@ -8,10 +8,10 @@ function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className='App' style={{ background: darkMode ? "black" : "#ed1941" }}>
-      <Navbar color={'#e6e6e6'} />
+    <div className='App' style={{ background: darkMode ? "black" : "#e6e6e6" }}>
+      <Navbar color={darkMode ? "#e6e6e6" : "#000"} />
       <Main />
-      <Footer color={'#e6e6e6'} />
+      <Footer color={darkMode ? "#e6e6e6" : "#000"} />
     </div>
   );
 }

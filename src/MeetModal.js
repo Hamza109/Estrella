@@ -9,10 +9,10 @@ const MeetModal = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className='m-modal' style={{ background: darkMode ? "black" : "#fff" }}>
-    <Navbar color={darkMode ? "#fff" : "#000"} />
+    <div className='m-modal' style={{ background: darkMode ? "black" : "#e6e6e6" }}>
+    <Navbar color={darkMode ? "#e6e6e6" : "#000"} />
     <Meet/>
-    <Footer color={darkMode ? "#fff" : "#000"} />
+    <Footer color={darkMode ? "#e6e6e6" : "#000"} />
   </div>
   )
 }

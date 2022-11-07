@@ -8,10 +8,10 @@ function About() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className='mcontact' style={{ background: darkMode ? "black" : "#fff" }}>
-      <Navbar color={darkMode ? "#fff" : "#000"} />
+    <div className='mcontact' style={{ background: darkMode ? "black" : "#e6e6e6" }}>
+      <Navbar color={darkMode ? "#e6e6e6" : "#000"} />
       <Contact />
-      <Footer color={darkMode ? "#fff" : "#000"} />
+      <Footer color={darkMode ? "#e6e6e6" : "#000"} />
     </div>
   );
 }
